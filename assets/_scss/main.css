@@ -486,8 +486,10 @@ a {
       /* line 40, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li a {
         color: inherit;
-        text-decoration: none; }
-      /* line 44, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0.1em; }
+      /* line 46, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li .dot {
         position: relative;
         display: block;
@@ -496,7 +498,7 @@ a {
         height: 1.5em;
         width: 1.5em;
         margin: 0px; }
-      /* line 54, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+      /* line 56, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li .name {
         position: absolute;
         top: 2em;
@@ -507,46 +509,46 @@ a {
         transform: rotateX(90deg);
         transform-origin: top;
         transition: transform 200ms ease-in; }
-      /* line 66, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+      /* line 68, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li:hover .name {
         transform: rotateX(0deg); }
-      /* line 71, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+      /* line 73, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li.monday {
         color: #51968A; }
         /* line 3, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
         #header ul li.monday .dot {
           background: #51968A; }
-      /* line 74, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+      /* line 76, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li.tuesday {
         color: #C0BA69; }
         /* line 3, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
         #header ul li.tuesday .dot {
           background: #C0BA69; }
-      /* line 77, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+      /* line 79, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li.wednesday {
         color: #BC7C5C; }
         /* line 3, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
         #header ul li.wednesday .dot {
           background: #BC7C5C; }
-      /* line 80, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+      /* line 82, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li.thursday {
         color: #93B759; }
         /* line 3, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
         #header ul li.thursday .dot {
           background: #93B759; }
-      /* line 83, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+      /* line 85, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
       #header ul li.friday {
         color: #A65866; }
         /* line 3, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
         #header ul li.friday .dot {
           background: #A65866; }
-  /* line 89, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+  /* line 91, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
   #header hr {
     border: 0;
     background: rgba(227, 226, 227, 0.5);
     height: 1px;
     width: 200px; }
-  /* line 95, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+  /* line 97, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
   #header p {
     margin: 3em auto;
     max-width: 620px;
@@ -554,7 +556,7 @@ a {
     color: rgba(227, 226, 227, 0.5);
     font-weight: 100; }
 
-/* line 104, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
+/* line 106, /Users/David/Documents/nac-website/assets/_scss/1-sections/_header.scss */
 .curve {
   display: block;
   width: 2000px;

@@ -430,7 +430,9 @@ a {
       text-transform: uppercase; }
       #header ul li a {
         color: inherit;
-        text-decoration: none; }
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0.1em; }
       #header ul li .dot {
         position: relative;
         display: block;
