@@ -14,8 +14,8 @@ html, body{
         position: absolute;
         display: block;
         left: calc(50% - 147px);
-        margin-top: calc(-30vw);
-        height: 150%;
+        margin-top: -500px;
+        height: calc(110% + 700px);
         width: 5px;
         background: $dark;
         opacity: 0.15;
