@@ -1,0 +1,25 @@
+.social-icons{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    .icon{
+        display: inline-block;
+        margin: 2px;
+        
+        svg{
+            height: 30px;
+            width: 30px;
+            //&:not(:hover){
+                path, polygon{
+                    fill: $light !important;
+                }
+            //}
+            &:hover{
+                transform: scale(1.2);
+            }
+            
+            transition: 300ms all ease-in-out;
+        }
+    }
+}

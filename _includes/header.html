@@ -1,0 +1,75 @@
+<section id="header">
+    <span class="star"
+          style="height: 10px;
+                 width: 10px;
+                 top: 20%;
+                 left: 20vw;"></span>
+    <span class="star"
+          style="height: 5px;
+                 width: 5px;
+                 top: 30%;
+                 left: 70vw;"></span>
+    <span class="star"
+          style="height: 8px;
+                 width: 8px;
+                 top: 80%;
+                 left: 85vw;"></span>
+    <span class="star"
+          style="height: 6px;
+                 width: 6px;
+                 top: 50%;
+                 left: 75vw;"></span>
+    <span class="star"
+          style="height: 6px;
+                 width: 6px;
+                 top: 15%;
+                 left: 95vw;"></span>
+    <span class="star"
+          style="height: 4px;
+                 width: 4px;
+                 top: 75%;
+                 left: 10vw;"></span>
+    <span class="star"
+          style="height: 8px;
+                 width: 8px;
+                 top: 40%;
+                 left: 5vw;"></span>
+    <span class="star"
+          style="height: 10px;
+                 width: 10px;
+                 top: 35%;
+                 left: 90vw;"></span>
+    <span class="star"
+          style="height: 8px;
+                 width: 8px;
+                 top: 5%;
+                 left: 55vw;"></span>
+    <span class="star"
+          style="height: 6px;
+                 width: 6px;
+                 top: 10%;
+                 left: 15vw;"></span>
+    <span class="star"
+          style="height: 8px;
+                 width: 8px;
+                 top: 70%;
+                 left: 40vw;"></span>
+    
+    <img alt="NAC logo" 
+         src="{{ site.baseurl}}/assets/img/nac-logo.png" />
+    <h1>{{ site.name }}</h1>
+    <ul class="nav-menu">
+        {% for creator in site.data.creators %}
+        <li class="nav-item {{ creator.day }}">
+            <a href="#{{ creator.day }}">
+                <span class="dot">
+                    <span class="name">{{ creator.name }}</span>
+                </span>
+                </a></li>
+        {% endfor %}
+    </ul>
+    <hr>
+    <p class=""> {{ site.data.about }} </p>
+    {% include social-icons.html %}
+    {% include svg/curve.svg %}
+</section>

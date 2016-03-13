@@ -1,0 +1,148 @@
+[
+    {
+        "name": "OrinsEyes",
+        "day": "monday",
+        "img": "orinseyes.jpg",
+        "bio": "Hey there! My name is Orin Willis and I make creative little videos on things that truly matter to me. This is the world through my eyes.",
+        "networks": [
+            {
+                "name": "youtube",
+                "url": "https://www.youtube.com/orinseyes"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/orinseyes"
+            },
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/orineyes"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/orinseyes/"
+            },
+            {
+                "name": "tumblr",
+                "url": "http://orinseyes.tumblr.com"
+            }
+        ]
+    },
+    {
+        "name": "Ana Marta",
+        "day": "tuesday",
+        "img": "ana-marta.jpg",
+        "bio": "Hiya! I'm Ana Marta, I'm 20 and I'm from Portugal. I'm a third year Graphic Design student and I like making little youtube videos every once in a while! :)",
+        "networks": [
+            {
+                "name": "youtube",
+                "url": "https://www.youtube.com/AMDSLD"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/amdsld"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/ana_marta_dias/"
+            },
+            {
+                "name": "tumblr",
+                "url": "http://im-ana-marta.tumblr.com"
+            },
+            {
+                "name": "behance",
+                "url": "http://im-ana-marta.tumblr.com"
+            },
+            {
+                "name": "google",
+                "url": "https://plus.google.com/104632232686088535551/posts"
+            }
+        ]
+    },
+    {
+        "name": "Chase vs Everything",
+        "day": "wednesday",
+        "img": "chase.jpg",
+        "bio": "Hullo! I'm Chase, a dreamer, adventurer and filmmaker from little ol' NZ",
+        "networks": [
+            {
+                "name": "youtube",
+                "url": "#https://www.youtube.com/ChasevsEverything"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/ChaseVsEvrythng"
+            },
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/ChasevsEverything"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/chasevseverything/"
+            },
+            {
+                "name": "tumblr",
+                "url": "http://chasevseverything.tumblr.com"
+            },
+            {
+                "name": "google",
+                "url": "https://plus.google.com/+ChasevsEverything/videos"
+            }
+        ]
+    },
+    {
+        "name": "Coque's Corner",
+        "day": "thursday",
+        "img": "coque.jpg",
+        "bio": "Convertir lo común en especial.",
+        "networks": [
+            {
+                "name": "youtube",
+                "url": "https://www.youtube.com/CoquesCorner"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/CoquesCorner"
+            },
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/coquescorner/"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/coquescorner/"
+            },
+            {
+                "name": "google",
+                "url": "https://plus.google.com/+CoquesCorner/videos"
+            }
+        ]
+    },
+    {
+        "name": "Marie Jacquemin",
+        "day": "friday",
+        "img": "marie.jpg",
+        "bio": "Hi there, my name is Marie, I am 20 and I'm from Germany. I live in London and I go to university and I make a video every once in a while.",
+        "networks": [
+            {
+                "name": "youtube",
+                "url": "https://www.youtube.com/mariejacquepot"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/jacquefilms"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/jacquefilms/"
+            },
+            {
+                "name": "tumblr",
+                "url": "http://jacquefilms.tumblr.com"
+            }
+            
+        ]
+    }
+    
+]

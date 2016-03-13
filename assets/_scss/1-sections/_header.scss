@@ -1,0 +1,108 @@
+@mixin nav-color($color){
+    color: $color;
+    .dot{
+        background: $color;
+    }
+}
+#header{
+    position: relative;
+    overflow-x: hidden;
+    background: $dark;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    
+    .star{
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        background: $light;
+        z-index: 10;
+    }
+    
+    img{
+        height: 100px;
+        padding: 30px;
+    }
+    ul{
+        width: 100vw;
+        display: block;
+        clear: both;
+        list-style: none;
+        padding: 30px 0;
+        margin: auto;
+        text-align: center;
+        li{
+            padding: 10px;
+            display: inline-block;
+            line-height: 1.5em;
+            text-transform: uppercase;
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
+            .dot{
+                position: relative;
+                display: block;
+                float: left;
+                border-radius: 50%;
+                height: 1.5em;
+                width: 1.5em;
+                margin: 0px;
+            }
+            
+            .name{
+                position: absolute;
+                top: 2em;
+                left: -90px;
+                width: 200px;
+                display: block;
+                white-space: nowrap;
+                transform: rotateX(90deg);
+                transform-origin: top;
+                transition: transform 200ms ease-in;
+            }
+            &:hover{
+                .name{ 
+                    transform: rotateX(0deg);
+                    //margin-left: 0px;
+                }
+            }
+            &.monday{
+                @include nav-color($mon);
+            }
+            &.tuesday{
+                @include nav-color($tue);
+            }
+            &.wednesday{
+                @include nav-color($wed);
+            }
+            &.thursday{
+                @include nav-color($thu);
+            }
+            &.friday{
+                @include nav-color($fri);
+            }
+        }
+    }
+    
+    hr{
+        border: 0;
+        background: rgba($light, 0.5);
+        height: 1px;
+        width: 200px;
+    }
+    p{
+        margin: 3em auto;
+        max-width: 620px;
+        padding: 0 20px;
+        color: rgba($light, 0.5);
+        font-weight: 100;
+    }
+}
+
+.curve{
+    display: block;
+    width: 2000px;
+    min-width: 100%;
+}

@@ -1,0 +1,17 @@
+<section id="biographies">
+    <span id="line"></span>
+    {% for c in site.data.creators %}
+    <div id="{{ c.day }}" class="creator {{ c.day }}">
+        <div class="day">{{ c.day }}</div>
+        <h2 class="title">{{ c.name }}</h2>
+        <div class="image">
+            <img src="{{ site.baseurl }}/assets/img/{{ c.img }}" 
+                 alt="Thumbnail of {{ c.name }}"/>
+        </div>
+        <div class="info">
+            <p class="bio">{{ c.bio }}</p>
+            {% include social-icons-creator.html %}
+        </div>
+    </div>
+    {% endfor %}
+</section>

@@ -1,0 +1,28 @@
+<ul class="social-icons">
+    {% for network in c.networks %}
+    {% if network.name == "youtube" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-yt.svg %}</a></li>
+    {% endif %}
+    {% if network.name == "twitter" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-t.svg %}</a></li>
+    {% endif %}
+    {% if network.name == "facebook" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-fb.svg %}</a></li>
+    {% endif %}
+    {% if network.name == "instagram" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-ig.svg %}</a></li>
+    {% endif %}
+    {% if network.name == "snapchat" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-sc.svg %}</a></li>
+    {% endif %}
+    {% if network.name == "tumblr" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-tb.svg %}</a></li>
+    {% endif %}
+    {% if network.name == "google" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-g.svg %}</a></li>
+    {% endif %}
+    {% if network.name == "behance" %}
+    <li class="icon"><a href="{{ network.url }}" target="_blank">{% include svg/logo-be.svg %}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Grimbleism",
+        "day": "friday",
+        "img": "grimbleism.jpg",
+        "bio": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+        "networks": [
+            {
+                "name": "youtube",
+                "url": "#"
+            },
+            {
+                "name": "twitter",
+                "url": "#"
+            },
+            {
+                "name": "facebook",
+                "url": "#"
+            },
+            {
+                "name": "instagram",
+                "url": "#"
+            }
+        ]
+    }
+]
